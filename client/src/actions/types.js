@@ -1,0 +1,1 @@
+/* Create type aliases for strings which represent actions */

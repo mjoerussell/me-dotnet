@@ -1,0 +1,19 @@
+{
+    "name": "mysite",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "concurrently": "^3.5.0"
+    },
+    "scripts": {
+        "client": "cd client && npm start",
+        "server": "cd server && nodemon server.js",
+        "clientsetup": "cd client && npm install --save",
+        "serversetup": "cd server && npm install --save",
+        "setup": "yarn clientsetup && yarn serversetup",
+        "dev": "concurrently --kill-others-on-fail \"yarn client\" \"yarn server\""
+    },
+    "dependencies": {
+        "firebase-tools": "^4.2.1"
+    }
+}

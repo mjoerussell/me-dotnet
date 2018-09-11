@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "mitchellrusselldotnet-dev",
+    "prod": "mitchellrusselldotnet"
+  }
+}
